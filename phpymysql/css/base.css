@@ -1,0 +1,20 @@
+head {
+  background: green; }
+
+.info {
+  width: 800px;
+  height: 400px; }
+  .info p {
+    font-size: 15px;
+    color: yellow; }
+
+.info2 {
+  width: 900px;
+  height: 500px;
+  background: red; }
+  .info2 p {
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline; }
+
+/*# sourceMappingURL=base.css.map */
