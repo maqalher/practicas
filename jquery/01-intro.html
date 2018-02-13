@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Tutorial</title>
+    <script src="jquery.min.js"></script>
+</head>
+<body>
+    <div id="codigo">Codigo Mentor</div>
+
+    <script>
+        //tres formas de iniciar jquery
+
+        //Primer forma
+        /*$(docuemnt).on.("ready", function(){
+
+        });*/
+
+        //Segunda
+        /*$(docuemnt).ready(function(){
+
+        });*/
+
+        //Tercera
+        /*$(function(){
+
+        });*/
+        
+
+        $(document).ready(function(){
+            $("#codigo").hide(3000).show(1000);
+        });
+
+        
+        
+    </script>
+</body>
+</html>

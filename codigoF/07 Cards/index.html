@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Curso Materializecss</title>
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    .icon-content{
+      font-size: 5em;
+    }
+  </style>
+</head>
+<body>
+	<header>
+    <nav>
+      <div class="nav-wrapper teal darken-2">
+        <a href="#!" class="brand-logo">Logo</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#"><i class="material-icons left">home</i>Inicio</a></li>
+          <li><a href="#"><i class="material-icons left">assignment</i>Acerca</a></li>
+          <li><a href="#"><i class="material-icons right">email</i>Contacto</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card-panel teal">
+          <span class="white-text">
+            <h4>Alan Maqueda</h4>
+          </span>
+          <p>Materialize</p>
+        </div>
+      </div>
+      <div class="col s12 m8">
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <div class="center">
+              <i class="material-icons icon-content">motorcycle</i>
+            </div>
+            <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <div class="center">
+              <i class="material-icons icon-content">keyboard_voice</i>
+            </div>
+            <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <div class="center">
+              <i class="material-icons icon-content">music_video</i>
+            </div>
+            <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+	<script src="js/jquery.js"></script>	
+	<script src="js/materialize.min.js"></script>
+	<script>
+		
+    	$(document).ready(function(){
+    		$(".button-collapse").sideNav();
+    	});
+
+        
+	</script>
+</body>
+</html>
