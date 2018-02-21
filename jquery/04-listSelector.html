@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JQuery Tutorial</title>
+    <script src="jquery.min.js"></script>
+</head>
+<body>
+    <p>Lista 1</p>
+    <ul>
+        <li>rojo</li>
+        <li>azul</li>
+        <li>varde</li>
+    </ul>
+
+    <p>Lista 2</p>
+    <ul>
+        <li>uno</li>
+        <li>dos</li>
+        <li>tres</li>
+    </ul>
+    <button>Click</button>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                //$("ul li:first").hide();//oculta el primer li
+                //$("ul li:first-child").hide();//oculta el primero de cada lista
+                $("ul li:last-child").hide();//oculta el ultimo de ambas listas
+            });
+        });    
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JQuery Tutorial</title>
+    <script src="jquery.min.js"></script>
+</head>
+<body>
+    
+    <table border="1">
+        <tr>
+            <td>Juan</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>18</td>
+        </tr>
+    </table>
+
+    <script>
+        $(document).ready(function(){
+            $("tr:even").css("background-color", "red");
+            $("tr:odd").css("background-color", "green");
+        }); 
+      
+
+            
+    </script>
+</body>
+</html>
